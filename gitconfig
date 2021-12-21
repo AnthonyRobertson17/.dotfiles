@@ -1,0 +1,8 @@
+[alias]
+	s = status
+	gs = git status
+[user]
+	name = Anthony Robertson
+	email = arob@hey.com
+[pull]
+	ff = only
