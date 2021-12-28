@@ -28,3 +28,6 @@ if [ -f "/Users/$USER/google-cloud-sdk/completion.zsh.inc" ]; then . "/Users/$US
 
 # Sets up the iterm2 shell integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Sets up rbenv
+eval "$(rbenv init - zsh)"
